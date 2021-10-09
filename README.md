@@ -16,4 +16,4 @@ Command which need to be fed to python.
 
 Example of Command Usage
 
-python3.9 args.py -s .22 -p phonenumber -c ravencoin -a 113412341264672457845689456sdgasdfasd -t 10 
+python3.9 cryptowatcher.py -s .22 -p phonenumber -c ravencoin -a 113412341264672457845689456sdgasdfasd -t 10 
