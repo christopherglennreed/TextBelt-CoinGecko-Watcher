@@ -28,3 +28,6 @@ while True:
 
   time.sleep(args.time)
   continue
+  
+  
+  ### EXAMPLE of usage python webwather.py -p 8003647667 -a 1casdfasdfasdagdga234461342y5rgfdsgf -u "https://google.com" -t 150 
