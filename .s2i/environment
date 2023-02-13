@@ -1,2 +1,2 @@
-APP_SCRIPT=python webwatcher.py -p $PHONE -a $API -u $URL -t $TIME
-APP_FILE
+APP_SCRIPT=webwatcher.py
+
