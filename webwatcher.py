@@ -18,7 +18,7 @@ while True:
   data = requests.get(url=args.url, headers=Headers)
   data = data.text
   txtmsg = "looks good to buy!" + (args.url) 
-  if not "args.txt" in data : 
+  if not args.txt in data : 
      print("Time to buy as the args.txt are no longer found")
      resp = requests.post('https://textbelt.com/text', {
        'phone': args.phone,
