@@ -17,9 +17,9 @@ Headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
 while True:
   data = requests.get(url=args.url, headers=Headers)
   data = data.text
-  txtmsg = "looks good to buy!" + (args.url) 
-  if not args.txt in data : 
-     print("Time to buy as the format(args.txt) are no longer found")
+  txtmsg = "looks good to buy!"  + (args.url)
+  if not args.txt in data :
+     print("Time to buy as the " + args.txt + " are no longer found")
      resp = requests.post('https://textbelt.com/text', {
        'phone': args.phone,
        'message': txtmsg,
@@ -29,6 +29,6 @@ while True:
 
   time.sleep(args.time)
   continue
-  
-  
-  ### EXAMPLE of usage python webwather.py -p 8003647667 -a 1casdfasdfasdagdga234461342y5rgfdsgf -u "https://google.com" -t 150 
+
+
+  ### EXAMPLE of usage python webwather.py -p 8003647667 -a 1casdfasdfasdagdga234461342y5rgfdsgf -u "https://google.com" -t 150
