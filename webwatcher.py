@@ -19,7 +19,7 @@ while True:
   data = data.text
   txtmsg = "looks good to buy!" + (args.url) 
   if not "args.txt" in data : 
-     print("Time to buy as the shoes are no longer prevented from discount")
+     print("Time to buy as the args.txt are no longer found")
      resp = requests.post('https://textbelt.com/text', {
        'phone': args.phone,
        'message': txtmsg,
